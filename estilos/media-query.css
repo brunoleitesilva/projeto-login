@@ -33,6 +33,19 @@
         width: 68%;
         margin-right: 7px;
     } 
+
+    div.campo > input {
+    background-color: #609795;
+    font-size: 1em;
+    width: calc(100vw - 649px);
+    transform: translateX(5px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    
+    }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -75,6 +88,17 @@
         width: 49%;
         margin-left: 5px;
     }
-
+    
+    div.campo > input {
+    background-color: #609795;
+    font-size: 1em;
+    width: calc(100vw - 649px);
+    transform: translateX(5px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    
+    }
 
 }
